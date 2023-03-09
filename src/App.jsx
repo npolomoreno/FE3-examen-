@@ -31,7 +31,7 @@ function App() {
       <form onSubmit={handleSubmit}>       
         {
 
-        <div>
+        <div className='parent-div'> 
         <label> Ingresa tu libro favorito </label>
         <input type="text" value = {user.libro} onChange={(e)=> setUser({...user,libro: e.target.value})} />
         <label >Escribe tu pelicula favorita </label>
